@@ -1,0 +1,46 @@
+<div class="news-letter-section">
+  <div class="input-group">
+    <label for name>Name:</label>
+    <input type="text" name="name" value="" placeholder="Yourname">
+  </div><br>
+  <div class="input-group">
+    <label for name>email:</label>
+    <input type="text" name="email" value="" placeholder="Your email address">
+  </div><br>
+  <div class="input-group">
+    <label for name>Phone:</label>
+    <input type="text" name="mobile" value="" placeholder="Mobile number">
+  </div><br>
+  <div class="input-group">
+    <input type="submit" name="submit" value="Yes" placeholder="Mobile number">
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "contest Box",
+	"class": "index-section index-section--flush",
+  	"settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Heading",
+      "default": "Participate in the Contest"
+                
+    }],
+
+
+  "presets": [
+    {
+      "name": "Contest Box",
+      "category": "contest"
+    }]
+}
+  
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
