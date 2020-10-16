@@ -1,10 +1,10 @@
 # practiseTheme
 
 Added new Template and Section
-#Templates
+# Templates
     page.contest.liquid
     page.faq.liquid
     
-#Sections
+# Sections
     faq-section.liquid
     contest-box.liquid
